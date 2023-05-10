@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::get('/', [ContactsController::class, 'index'])->name('home');
-Route::resource('contacts', ContactsController::class);
+Route::resource('contacts', ContactsController::class)->except(['show']);
