@@ -24,6 +24,17 @@ Generate App Key
 php artisan key:generate
 ```
 
+Set database credentials in the .env file
+
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=phonebook
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
 Run migrations
 ```
 php artisan migrate
