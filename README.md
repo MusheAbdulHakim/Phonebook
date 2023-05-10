@@ -1,3 +1,40 @@
+##Installation
+Run the following commands in the terminal to install the application.
+
+Clone the repository with the command below
+
+```
+git clone https://github.com/MusheAbdulHakim/Phonebook.git
+```
+
+```
+cd Phonebook
+```
+Install Composer dependencies
+```
+composer install
+```
+Copy and rename .env.example file to .env 
+```
+cp .env.example .env
+```
+Generate App Key
+
+```
+php artisan key:generate
+```
+
+Run migrations
+```
+php artisan migrate
+```
+Install npm packages
+```
+npm install && npm run dev
+```
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
